@@ -8,7 +8,7 @@
 ``docker run --rm -v $(pwd):/app composer install``
 
 Для запуска контейнера использовать команду
-``docker-compose -up -d``.
+``docker-compose up -d``.
 
 Актуальные конфиги Laravel находятся в файле ``.env.example``.
 Для создания файла конфигурации используйте команду ``cp .env.example .env`` в папке проекта.
